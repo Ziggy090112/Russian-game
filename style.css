@@ -1,0 +1,43 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.game-container {
+    margin-top: 100px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: red;
+    text-shadow: 2px 2px 10px black;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: darkred;
+    color: white;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: black;
+    color: red;
+}
+
+#outcome {
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+}
